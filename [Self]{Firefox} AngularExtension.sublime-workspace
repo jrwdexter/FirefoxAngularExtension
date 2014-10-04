@@ -1,0 +1,2282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inspec",
+				"inspectorUtils"
+			],
+			[
+				"deleteu",
+				"deleteUsersHandler"
+			],
+			[
+				"_dele",
+				"_deletionCallbackHandler"
+			],
+			[
+				"Entit",
+				"EntityOneId"
+			],
+			[
+				"shee",
+				"sheetId"
+			],
+			[
+				"GetSh",
+				"GetSheetId"
+			],
+			[
+				"Spr",
+				"SpreadsheetDocument"
+			],
+			[
+				"Work",
+				"WorkbookPart"
+			],
+			[
+				"Get",
+				"GetColumnIndex"
+			],
+			[
+				"ProductConfigurations",
+				"ProductConfigurations"
+			],
+			[
+				"ProductConfigu",
+				"ProductConfigurationId"
+			],
+			[
+				"ProductConfi",
+				"ProductConfigurationSeries"
+			],
+			[
+				"name",
+				"Name"
+			],
+			[
+				"repl",
+				"Replace"
+			],
+			[
+				"param",
+				"parameterValues"
+			],
+			[
+				"controll",
+				"Controller"
+			],
+			[
+				"initi",
+				"initialTime"
+			],
+			[
+				"lightt",
+				"lighttablePort"
+			],
+			[
+				"liverel",
+				"livereloadPort"
+			],
+			[
+				"ligh",
+				"lighttablePort"
+			],
+			[
+				"Hea",
+				"HeatSinkMass"
+			],
+			[
+				"Insert-Ro",
+				"Insert-RotaryPmMotor"
+			],
+			[
+				"max",
+				"MaxACInHybrid"
+			],
+			[
+				"MaxAC",
+				"MaxACInACOnly"
+			],
+			[
+				"latest",
+				"latest_save_full_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/inspector-scope-connector.js",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/ng/ngInspector.js",
+			"settings":
+			{
+				"buffer_size": 4745,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*\n * This is a JavaScript Scratchpad.\n *\n * Enter some JavaScript, then Right Click or choose from the Execute Menu:\n * 1. Run to evaluate the selected text (Ctrl+R),\n * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,\n * 3. Display to insert the result in a comment after the selection. (Ctrl+L)\n */\n\nlet {devtools} = Components.utils.import('resource:///modules/devtools/gDevTools.jsm', {});\n\nlet selectedTab = gBrowser.selectedTab\nlet target = devtools.TargetFactory.forTab(gBrowser.selectedTab);\nlet inspector = gDevTools.getToolbox(target);\nlet panels = inspector.getToolPanels();\n\nlet panelsArray = [];\n\nfor(var [key, value] of panels) {\n  panelsArray.push({key, value});\n}\n\npanelsArray[0].value.sidebar.addTab('test', 'http://www.example.com');",
+			"file": "data/test.js",
+			"file_size": 841,
+			"file_write_time": 130565284201228531,
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Windows",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "data/updateConsole.js",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/jquery-2.1.0.min.js",
+			"settings":
+			{
+				"buffer_size": 83615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".jshintrc",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/ng/events.js",
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/main.js",
+			"settings":
+			{
+				"buffer_size": 350,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/scopeInspector/scope.xhtml",
+			"settings":
+			{
+				"buffer_size": 816,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/scopeInspector/ScopeView.js",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "data/angular.js",
+			"settings":
+			{
+				"buffer_size": 100329,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 236.0,
+		"selected_items":
+		[
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"user ",
+				"Preferences: Settings - User"
+			],
+			[
+				"sublimebookmarks clear",
+				"SublimeBookmarks: Remove All Bookmarks (Clear Bookmarks)"
+			],
+			[
+				"bookmarks",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"pcinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"pcinst",
+				"Package Control: Install Package"
+			],
+			[
+				"pcdias",
+				"Package Control: Disable Package"
+			],
+			[
+				"pcena",
+				"Package Control: Enable Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"pcremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pclist",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pcinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"pcrepo",
+				"Package Control: Add Repository"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"pcinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"pcup",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pcremov",
+				"Package Control: Remove Package"
+			],
+			[
+				"linte",
+				"SublimeLinter: Save-Only Linting"
+			],
+			[
+				"errrors",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"error",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"pcdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"ssplain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sspython",
+				"Set Syntax: Python"
+			],
+			[
+				"pcremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"alignm",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"ssyaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sscsc",
+				"Set Syntax: ScriptCs"
+			],
+			[
+				"forma",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"settings us",
+				"Preferences: Settings - User"
+			],
+			[
+				"us",
+				"Preferences: Settings - User"
+			],
+			[
+				"pcdisa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ssrazor",
+				"Set Syntax: Razor"
+			],
+			[
+				"sshtml asp",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"ssjavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"settingus",
+				"Preferences: Settings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"pclsit",
+				"Package Control: List Packages"
+			],
+			[
+				"preferen",
+				"Preferences: Browse Packages"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"pcupd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pclis",
+				"Package Control: List Packages"
+			],
+			[
+				"setting use",
+				"Preferences: Settings - User"
+			],
+			[
+				"vinta",
+				"Vintageous: Run Tests..."
+			],
+			[
+				"form",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"ssscriptcs",
+				"Set Syntax: ScriptCs"
+			],
+			[
+				"vintag",
+				"Vintageous: Run Tests..."
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"inden",
+				"Indent XML"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"sspowersh",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"ssauto",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"docblo",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"pcsetting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"extra",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"sublimelint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sublim",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sublimelin",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"sspower",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"ssruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"ssru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"sspowe",
+				"Set Syntax: Powershell v2"
+			],
+			[
+				"ssbat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"pcins",
+				"Package Control: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"sspowe	",
+				"Set Syntax: Powershell v2"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 317.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime",
+			"view.run_command(\"invert_selection\")",
+			"view",
+			"sublime.windows()",
+			"sublime.Views",
+			"sublime.View",
+			"sublime.views",
+			"sublime.view",
+			"sublime.run_command(\"invert_selection\")",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"pprint(inspect.getmembers(sublime))",
+			"pprint(inspect.getmethods(sublime))",
+			"pprint(inspect(sublime))",
+			"from pprint import pprint",
+			"inspect.getmembers(sublime)",
+			"import inspect",
+			"inspect",
+			"sublime.getattr",
+			"sublime",
+			"sublime.log_console(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(true)",
+			"sublime",
+			"sublime.get_members",
+			"sublime.members",
+			"sublime",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(true)",
+			"sublime.log_commands",
+			"sublime.log_settings",
+			"sublime.Settings",
+			"sublime.settings",
+			"sublime",
+			"setting",
+			"settings",
+			"Settings",
+			"show_console",
+			"settings",
+			"view",
+			"this",
+			"environment",
+			"ENVIRONMENT",
+			"ENV",
+			"env"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/src/Personal/Mozilla/AngularExtension",
+		"/C/src/Personal/Mozilla/AngularExtension/data",
+		"/C/src/Personal/Mozilla/AngularExtension/data/scopeInspector",
+		"/C/src/Personal/Mozilla/AngularExtension/doc",
+		"/C/src/Personal/Mozilla/AngularExtension/lib",
+		"/C/src/Personal/Mozilla/AngularExtension/lib/ng",
+		"/C/src/Personal/Mozilla/AngularExtension/test"
+	],
+	"file_history":
+	[
+		"/C/src/Personal/Mozilla/AngularExtension/data/scope.xhtml",
+		"/C/src/!Self/Mozilla/src/browser/devtools/inspector/inspector-panel.js",
+		"/C/src/!Self/Mozilla/src/browser/devtools/webconsole/panel.js",
+		"/C/src/!Self/Mozilla/src/browser/devtools/main.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/main.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/scratch.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/ng/ngControllers.js",
+		"/C/src/!Self/Mozilla/AngularExtension/data/test.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/ng/angular.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/angular/events.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/angular/ngControllers.js",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/angular.js",
+		"/C/src/Nerdery/BRAVO.DotNet.Nerdery.Logger/.gitignore",
+		"/C/temp/test.csx",
+		"/C/src/!Self/Mozilla/AngularExtension/lib/inspector-scope-connector.js",
+		"/C/Users/Jonathan/Dropbox/junction-box/.vimperatorrc",
+		"/C/src/!Self/Mozilla/addon-sdk-1.15/lib/sdk/browser/events.js",
+		"/C/src/!Self/Mozilla/addon-sdk-1.15/lib/sdk/tabs/tabs.js",
+		"/C/src/!Self/Mozilla/AngularExtension/.jshintrc",
+		"/C/temp/test.log",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Filters/Logging/TraceAttribute.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/services/TraceService.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Hubs/TraceHub.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Logging/TraceSourceLogger.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/directives/TabDirectives.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/MotionAnalyzer.xsd",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/main.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/LibraryItemController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Common/SystemTime.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/SolutionFilter.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/!1 - TestData.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/tests/TestSpec.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/test.htm",
+		"/C/src/Rockwell/MotionAnalyzer/scripts/testdata/Insert-TestData.ps1",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/5.1 - ActualData Filters.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/Actuator.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Tests/Rockwell.MotionAnalyzer.Tests/Api/AxesControllerTests.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Data/App.Config",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/app.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/UserSettings.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/1 - Users.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/directives/UserAdmin.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/services/LibraryService.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/4 - Library.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/5 - ActualData.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/2 - Structure.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/3 - Products.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/Product.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Common/Enums/ProductRequirement.cs",
+		"/C/src/Rockwell/MotionAnalyzer/package.json",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/AdminProfileController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Admin/Views/Users/Index.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Admin/Controllers/UsersController.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Data/Raven/MapReduce/Industries_UserTags.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/ProductController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/AdminControllers.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/AmbientDerating.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/Product/CompatibilityController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Admin/Views/Products/Product.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Event/UserAddedHandler.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/models/unbalanced-load/UnbalancedLoad.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/Product/ConfigurationsController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/services/ControlFlowService.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/ProductConfigurationController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/4.1 - Containers.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Algorithm/Transforms/Sizing/Linear/LinearRotaryMechanism.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/LibraryItem.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.SQL/Rockwell.SQL.MotionAnalyzer/Rockwell.SQL.MotionAnalyzer.Setup/3.1 - AccessoryFeatures.sql",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/AccessoryFeature.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/Accessory.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Axis/AxisComponentController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Products/Views/Shared/Products.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/User.cs",
+		"/C/src/Rockwell/MotionAnalyzer/postman/environments/internal - testUser.json.txt",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Data/CommitHandler.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Common/Enums/Culture.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/Family/ProductsController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/Accessories/AccessoryFamilyController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/ProductComponentController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/Admin/FamiliesController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/ProductConfiguration.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Service/Data/Concrete/ProductConfigurationService.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Controllers/Products/ProductConfigurationsController.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Admin/Views/Products/_ProductComponent.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/services/ODataService.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/lib-thirdparty/d3.v3.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/services/ProjectService.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Views/Shared/Products/_productSlider.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Library/Views/Projects/_Project.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Library/Views/Axis/_Performance.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/_references.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Tools/ToolsAreaRegistration.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Web.config",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Web.config",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/Partials/Motors/MotorOptions.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Common/Enums/MotorType.cs",
+		"/C/src/Rockwell/MotionAnalyzer/scripts/api/TargetApi",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers/ProductController.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/ProductContainer.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/models/admin/Product.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/controllers.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/Converter.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Admin/Views/Products/ProductConfiguration.cshtml",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Areas/Admin/Controllers/ProductsController.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/models/motion-profile/ModelSource.js",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/qv4pitx9.default-1391653906391/prefs.js",
+		"/C/Users/Jonathan/.vimperatorrc",
+		"/C/src/Rockwell/MotionAnalyzer/.agignore",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/models/motion-profile/%home%",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/LESS/README.md",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/src/Rockwell/MotionAnalyzer/scripts/documentation/apiary.md",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Util/Contracts/DataBinderContract.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Algorithm/Transforms/Parameterizing/DataGeneratorPMRotary.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Algorithm/Transforms/Parameterizing/DataGeneratorPMLinear.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Cloud/Rockwell.MotionAnalyzer.Cloud.Algorithm/Rockwell.MotionAnalyzer.AlgorithmServiceContent/diagnostics.wadcfg",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Models/Data/DriveModel.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Controllers/Products/DrivesController.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/lib-thirdparty/d3.min.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Web/Scripts/graph/DomainAxis.js",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Util/Concrete/DataBinder.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/App_GlobalResources/ReasonCodes.Designer.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Data/SQL/RockwellData.Designer.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.WebService/Extensions/DbEntityValidationExcpetionExtensions.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Notification/Concrete/DefaultNotificationDbProvider.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Notification/Concrete/DefaultInternalNotificationService.cs",
+		"/C/src/Rockwell/MotionAnalyzer/Rockwell.MotionAnalyzer.Model/Data/DirectDriveStageMechanism.cs"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"*.cshtml",
+			"*.js",
+			"",
+			"*.js",
+			"Index.cshtml",
+			"*.cshtml",
+			"*.cs",
+			"",
+			"*.cs",
+			"",
+			"*.js",
+			".js",
+			"",
+			"*.csproj",
+			"*.cs",
+			"",
+			"C:\\src\\Rockwell\\MotionAnalyzer\\Rockwell.MotionAnalyzer.WebService",
+			"C:\\src\\Rockwell\\MotionAnalyzer\\Rockwell.MotionAnalyzer.WebService\\"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"scope",
+			"xul",
+			"?>",
+			"?xml-stylesheet",
+			"inspectorUtils",
+			"AngularControllers",
+			"  this.",
+			"this.",
+			"this",
+			"g-m\\^2",
+			"g\\-m\\^2",
+			"g-m\\^2",
+			"events",
+			"listener",
+			"ngControllers",
+			"'",
+			"var",
+			"\"",
+			"SET DEFAULT",
+			" DEFAULT 2",
+			"SET DEFAULT",
+			" ,",
+			"DEFAULT 2",
+			"SET DEFAULT",
+			"NO ACTION",
+			"CASCADE",
+			"NO ACTION",
+			"2",
+			", GETDATE(), GETDATE(), 1, 1",
+			",GETDATE(),GETDATE(),1,1",
+			"NO ACTION",
+			"CASCADE",
+			"NO ACTION",
+			"CASCADE",
+			"NO ACTION",
+			"CASCADE",
+			"NO ACTION",
+			"CASCADE",
+			"NO ACTION",
+			"CASCADE",
+			"NO ACTION",
+			"OData.del",
+			"\" ng-show=\"component.values.l",
+			"\\\\r\\\\n",
+			"product",
+			"\" }",
+			"ng-controller=\"AdminProductComponentController\" ng-init=\"component.init(product, 'InverterOne')\" ",
+			"this",
+			"MotionAnalyzerUrl",
+			"\\$q",
+			"product",
+			"fetchProduct",
+			"Product.prototype",
+			"inverterOne",
+			"One",
+			"OnePanel",
+			"{{componentName}}",
+			"One",
+			"testOne",
+			"One",
+			"componentName in product.componentNames",
+			"product.inverterOneValues",
+			"component",
+			"comoponent",
+			"%20",
+			",\\s*",
+			"\\{\\s*",
+			"\\n",
+			"\\r",
+			"\\r\\n",
+			"500",
+			"top=500",
+			"SolutionFil",
+			"SolutionFilters",
+			"Families",
+			"Families\\?",
+			"SessionKey",
+			"\"",
+			"\\\\r\\\\n",
+			"(button class=\"btn\" ng-click=\"libraryItem.save.*ng-disabled=\")[^\"]*",
+			"s=\"btn\" ng-click=\"libraryItem.save()\" ng-disabled=\"libraryItem.lock.saveEnabled() || !libraryItem.saveEnabled()",
+			"(button class=\"btn\" ng-click=\"libraryItem.save.*ng-disabled=\")[^\"]*",
+			"(button class=\"btn\" ng-click=\"libraryItem.save.*ng-disabled=\")[^\"]",
+			"(button class=\"btn\" ng-click=\"libraryItem.save.*)>@Resources.Save<",
+			"(button class=\"btn\" ng-click=\"libraryItem.save.*)>@Resources.Save",
+			">@Resources.Save",
+			"> @Resources.Save",
+			"Precondition",
+			"^.*: (\\d\\d\\d\\d).*",
+			"ODataAction.*\\n.*HttpGet",
+			"\\n",
+			"\\r",
+			"\\r\\n",
+			"ODataAction.*\\r\\n.*HttpGet",
+			"ODataAction\\r\\n.*HttpGet",
+			"-.*",
+			"MotionAnalyzer ",
+			"X",
+			"'",
+			"[",
+			"X",
+			"^([^']*)'([^']*) ([^']*)'",
+			"INSERT INTO Structure.ProductAttributes ([Name], [Group], [Level], [Min], [Max], [Unit], [ProductTypeId], [AttributeTypeId]) VALUES ('RatedPower'",
+			"^([^']*)'([^']*) ([^']*)'",
+			"X",
+			"(\\('[^']*[^ ])([A-Z])",
+			"''",
+			"(\\('[^']*[^ ])([A-Z])",
+			"(\\('[^']*)([A-Z])",
+			"\\[",
+			"\\].*",
+			"2003",
+			"\n                        ",
+			"MotionAnalyzer ",
+			"MotionAnalyzer",
+			"MotionAnalyzer ",
+			"iisexpress.exe",
+			"MotionAnalyzer ",
+			" : ",
+			":",
+			" :",
+			"iisexpress",
+			"MotionAnalyzer",
+			"motionanalyzer",
+			"MotionAnalyzer",
+			"motionanalyzer",
+			"MotionAnalyzer",
+			"motionanalyzer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			" ",
+			",",
+			"{",
+			"",
+			"\\r\\n",
+			"\\1!libraryItem.lock.saveEnabled() || !libraryItem.saveEnabled()",
+			"\\1libraryItem.lock.saveEnabled() || !libraryItem.saveEnabled()",
+			"\\1> @Resources.Save<",
+			"\\1> @Resources.Save",
+			">@Resources.Save",
+			"\\1",
+			"",
+			"\\1'\\2\\3'",
+			"\\1 \\2",
+			"",
+			" ",
+			"Deratings",
+			"RodStyleMechanism",
+			"IntegratedRodStyleMechanism",
+			"DirectDriveStageMechanism",
+			"ThrusterMechanism",
+			"BallscrewStageMechanism",
+			"DirectDriveStageMechanisms",
+			"ThrusterMechanisms",
+			"",
+			"\\1",
+			"COLUMN ",
+			"DROP COLUMN \\1",
+			" /",
+			" ",
+			"x",
+			"& \n",
+			" \n",
+			"",
+			"[Users].\\1",
+			"$1\\L$2",
+			"$1\\U$2",
+			"$1\\l$2",
+			"$1",
+			"double _\\l\\1",
+			"\\t",
+			"\\n",
+			"\\t",
+			"\\n",
+			"\\r\\n",
+			"\\r",
+			"\\t",
+			"{TAB}",
+			"Owner",
+			"Onwer\\\\\": \\\\\"testUser@nerdery.com\\\\\"",
+			"\\n",
+			"",
+			"-"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/inspector-scope-connector.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 5
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/ng/ngInspector.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4670,
+								4670
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"highlight_line": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_bottom_top": false,
+								"_is_repeating": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 46
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "data/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 70
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "data/updateConsole.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"highlight_line": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"_is_repeating": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "data/jquery-2.1.0.min.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 83615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83615,
+								83615
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".jshintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 17
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "lib/ng/events.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"highlight_line": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 5
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "data/scopeInspector/scope.xhtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"is_xml": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 62
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "data/scopeInspector/ScopeView.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"highlight_line": false,
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 1,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "data/angular.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "[Self]{Firefox} AngularExtension.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"trace",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\TraceService.js"
+			],
+			[
+				"app.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\app.js"
+			],
+			[
+				"main.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\main.js"
+			],
+			[
+				"library.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\4 - Library.sql"
+			],
+			[
+				"structure.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\2 - Structure.sql"
+			],
+			[
+				"test.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\!1 - TestData.sql"
+			],
+			[
+				"testdat",
+				"scripts\\testdata\\Insert-TestData.ps1"
+			],
+			[
+				"actualdata.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\5 - ActualData.sql"
+			],
+			[
+				"users.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\1 - Users.sql"
+			],
+			[
+				"product.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\3 - Products.sql"
+			],
+			[
+				"structure",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\2 - Structure.sql"
+			],
+			[
+				"5ac",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\5 - ActualData.sql"
+			],
+			[
+				"5.1.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\5.1 - ActualData Filters.sql"
+			],
+			[
+				"user.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\1 - Users.sql"
+			],
+			[
+				"adminusersinde",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml"
+			],
+			[
+				"useradmin.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\directives\\UserAdmin.js"
+			],
+			[
+				"4.1",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\4.1 - Containers.sql"
+			],
+			[
+				"accessoryfeature.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\3.1 - AccessoryFeatures.sql"
+			],
+			[
+				"controlflowse",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\ControlFlowService.js"
+			],
+			[
+				"adminproductcontroller",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\ProductController.js"
+			],
+			[
+				"productconfigurationcontrol",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\ProductConfigurationController.js"
+			],
+			[
+				"controlflow",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\ControlFlowService.js"
+			],
+			[
+				"products.sql",
+				"Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\3 - Products.sql"
+			],
+			[
+				"_productcomp",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Admin\\Views\\Products\\_ProductComponent.cshtml"
+			],
+			[
+				"traceservice",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\TraceService.js"
+			],
+			[
+				"web.config",
+				"Rockwell.MotionAnalyzer.Web\\Web.config"
+			],
+			[
+				"odataservice",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\ODataService.js"
+			],
+			[
+				"tabdirectiv",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\directives\\TabDirectives.js"
+			],
+			[
+				"tabdirec",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\directives\\TabDirectives.js"
+			],
+			[
+				"tabdire",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\directives\\TabDirectives.js"
+			],
+			[
+				"productcontroller.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\ProductController.js"
+			],
+			[
+				"adminproduct.cshtml",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Admin\\Views\\Products\\Product.cshtml"
+			],
+			[
+				"adminproductcontroller.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\ProductController.js"
+			],
+			[
+				"odataser",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\ODataService.js"
+			],
+			[
+				"adminproductconfigurations",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\ProductConfigurationController.js"
+			],
+			[
+				"adminproductcshtml",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Admin\\Views\\Products\\Product.cshtml"
+			],
+			[
+				"web.con",
+				"Rockwell.MotionAnalyzer.WebService\\Web.config"
+			],
+			[
+				".vimpera",
+				"C:\\Users\\Jonathan\\Dropbox\\junction-box\\.vimperatorrc"
+			],
+			[
+				".md",
+				"scripts\\documentation\\apiary.md"
+			],
+			[
+				"modelsource.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\models\\motion-profile\\ModelSource.js"
+			],
+			[
+				"librarycontroller.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\LibraryItemController.js"
+			],
+			[
+				"header",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Shared\\_HeaderControl.cshtml"
+			],
+			[
+				"filter",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\lib\\NerdFilter.js"
+			],
+			[
+				"solutionfilter",
+				"Rockwell.MotionAnalyzer.Model\\Data\\SolutionFilter.cs"
+			],
+			[
+				"productbrowser",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\ProductBrowserController.js"
+			],
+			[
+				"productscontroller.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\Family\\ProductsController.js"
+			],
+			[
+				"familiescontrol",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Admin\\FamiliesController.js"
+			],
+			[
+				"odataserv",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\services\\ODataService.js"
+			],
+			[
+				"home",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\HomeController.js"
+			],
+			[
+				"",
+				"Select from series WHERE"
+			],
+			[
+				"unbalancedloadspec",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\tests\\UnbalancedLoadSpec.js"
+			],
+			[
+				"testspec",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\tests\\TestSpec.js"
+			],
+			[
+				"testspe",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\tests\\TestSpec.js"
+			],
+			[
+				"gruntfile.js",
+				"Gruntfile.js"
+			],
+			[
+				"unbalancedload.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\models\\unbalanced-load\\UnbalancedLoad.js"
+			],
+			[
+				"motionsegment.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\models\\motion-profile\\model-point\\MotionSegment.js"
+			],
+			[
+				"segment.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\graph\\Segment.js"
+			],
+			[
+				"nerdcomments",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\directives\\CommentsDirective.js"
+			],
+			[
+				"projectscontroller.js",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Project\\ProjectsController.js"
+			],
+			[
+				"projectcontroller",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\ProjectControllers.js"
+			],
+			[
+				"libraryitemcontro",
+				"Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\LibraryItemController.js"
+			],
+			[
+				"library_comm",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Shared\\_Comments.cshtml"
+			],
+			[
+				"library_hea",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Shared\\_HeaderControl.cshtml"
+			],
+			[
+				"axisindexcsh",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Axis\\Index.cshtml"
+			],
+			[
+				"projectindex",
+				"Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Projects\\Index.cshtml"
+			],
+			[
+				"library.js",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\services\\LibraryService.js"
+			],
+			[
+				"sharedlibrary",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\SharedLibraryController.js"
+			],
+			[
+				"messaging.yaml",
+				"MotionAnalyzer\\Messaging.yaml"
+			],
+			[
+				"web.confi",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.WebService\\Web.config"
+			],
+			[
+				".cs",
+				"Tweaking_0.1\\Motor.cs"
+			],
+			[
+				"migrate-motors",
+				"MotionAnalyzer\\scripts\\migrations\\Migrate-Motors.ps1"
+			],
+			[
+				"3-",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\3 - Products.sql"
+			],
+			[
+				"autofaccon",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.WebService\\App_Start\\AutoFacConfig.cs"
+			],
+			[
+				"traceserv",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\services\\TraceService.js"
+			],
+			[
+				"errormess",
+				"MotionAnalyzer\\ErrorMessages.yaml"
+			],
+			[
+				"errormessages",
+				"MotionAnalyzer\\ErrorMessages.txt"
+			],
+			[
+				"solutionset",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Model\\Data\\Base\\SolutionSet.cs"
+			],
+			[
+				"solutions",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Model\\Data\\SolutionSetMechanism.cs"
+			],
+			[
+				"solutionset.cs",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Model\\Data\\SolutionSet.cs"
+			],
+			[
+				"userlibr",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Model\\Data\\UserLibraryItemAccessLevel.cs"
+			],
+			[
+				"libraryitem.cs",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Model\\Data\\LibraryItem.cs"
+			],
+			[
+				".gitig",
+				"MotionAnalyzer\\.gitignore"
+			],
+			[
+				"rockwell.json",
+				"MotionAnalyzer\\scripts\\postman\\Rockwell.json"
+			],
+			[
+				"actualda",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\5 - ActualData.sql"
+			],
+			[
+				"structu",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\2 - Structure.sql"
+			],
+			[
+				"actualdata",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\5 - ActualData.sql"
+			],
+			[
+				"stru",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\2 - Structure.sql"
+			],
+			[
+				"services.js",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\services.js"
+			],
+			[
+				"controller.js",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\HomeController.js"
+			],
+			[
+				"service.js",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\services\\AuthService.js"
+			],
+			[
+				"filtersetcontroll",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\FiltersetController.js"
+			],
+			[
+				"productbrowsercont",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\ProductBrowserController.js"
+			],
+			[
+				"productsindex",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Products\\Views\\Products\\Index.cshtml"
+			],
+			[
+				"drive.cs",
+				"MotionAnalyzer\\DatabaseMappings\\Drive.cs"
+			],
+			[
+				"profileindex",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Profile\\Index.cshtml"
+			],
+			[
+				"mig",
+				"MotionAnalyzer\\scripts\\migrations\\Migrate-Motors.ps1"
+			],
+			[
+				"migrate",
+				"MotionAnalyzer\\scripts\\migrations\\Migrate-Drives.ps1"
+			],
+			[
+				"migrate-",
+				"MotionAnalyzer\\scripts\\migrations\\Migrate-Mechanisms.ps1"
+			],
+			[
+				"libraryitemcontroll",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\LibraryItemController.js"
+			],
+			[
+				"axiscomponentcon",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Axis\\AxisComponentController.js"
+			],
+			[
+				"axiscontroller.js",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\Axis\\AxisController.js"
+			],
+			[
+				"components",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Axis\\_Components.cshtml"
+			],
+			[
+				"axisindex",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Axis\\Index.cshtml"
+			],
+			[
+				"testdata",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\!2 - TestDataAfterMigration.sql"
+			],
+			[
+				"homeindex",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Views\\Home\\Index.cshtml"
+			],
+			[
+				"migrate-.ps1",
+				"MotionAnalyzer\\scripts\\migrations\\Migrate-Motors.ps1"
+			],
+			[
+				"testdata.sql",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\!1 - TestData.sql"
+			],
+			[
+				"dropda",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\0 - DropDatabase.sql"
+			],
+			[
+				"structur",
+				"MotionAnalyzer\\Rockwell.SQL\\Rockwell.SQL.MotionAnalyzer\\Rockwell.SQL.MotionAnalyzer.Setup\\2 - Structure.sql"
+			],
+			[
+				"serviceweb.config",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.WebService\\Web.config"
+			],
+			[
+				"_header",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Views\\Shared\\_Header.cshtml"
+			],
+			[
+				"authservi",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\services\\AuthService.js"
+			],
+			[
+				"libraryindex",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Library\\Views\\Library\\Index.cshtml"
+			],
+			[
+				"nerd",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\lib\\NerdFilter.js"
+			],
+			[
+				"gruntfil",
+				"MotionAnalyzer\\Gruntfile.js"
+			],
+			[
+				"auth.js",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\services\\AuthService.js"
+			],
+			[
+				"homecontroller",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\HomeController.js"
+			],
+			[
+				"gruntfile",
+				"MotionAnalyzer\\Gruntfile.js"
+			],
+			[
+				".css",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Content\\screen.css"
+			],
+			[
+				"notificationsco",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Scripts\\controllers\\NotificationsController.js"
+			],
+			[
+				"_notifi",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Account\\Views\\UserProfile\\_Notifications.cshtml"
+			],
+			[
+				"_notifications",
+				"MotionAnalyzer\\Rockwell.MotionAnalyzer.Web\\Areas\\Account\\Views\\UserProfile\\_Notifications.cshtml"
+			],
+			[
+				"migra",
+				"MotionAnalyzer\\scripts\\migrations\\Migrate-Drives.ps1"
+			],
+			[
+				"ldatmapping",
+				"MotionAnalyzer\\scripts\\migrations\\cfg\\LinearMechanismLdatMapping.cfg"
+			],
+			[
+				"linearmechanismmapping",
+				"MotionAnalyzer\\scripts\\migrations\\cfg\\LinearMechanismMapping.cfg"
+			],
+			[
+				"drivemappin",
+				"MotionAnalyzer\\scripts\\migrations\\cfg\\DriveMapping.cfg"
+			],
+			[
+				"linearpmmapp",
+				"MotionAnalyzer\\scripts\\migrations\\cfg\\LinearPmMapping.cfg"
+			],
+			[
+				"rotaryinductionmapp",
+				"MotionAnalyzer\\scripts\\migrations\\cfg\\RotaryInductionMapping.cfg"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"rock",
+				"C:\\src\\Rockwell\\MotionAnalyzer\\[Rockwell] Motion Analyzer.sublime-project"
+			],
+			[
+				"rockwell",
+				"C:\\src\\Rockwell\\MotionAnalyzer\\[Rockwell] Motion Analyzer.sublime-project"
+			],
+			[
+				"rockwe",
+				"C:\\src\\Rockwell\\MotionAnalyzer\\[Rockwell] Motion Analyzer.sublime-project"
+			],
+			[
+				"powersh",
+				"C:\\Users\\Jonathan\\Documents\\WindowsPowerShell\\Powershell Profile.sublime-project"
+			],
+			[
+				"sick",
+				"C:\\src\\!Self\\SickMap\\SickMap.sublime-project"
+			],
+			[
+				"sickm",
+				"C:\\Users\\Jonathan\\Documents\\Visual Studio 2013\\Projects\\SickMap\\SickMap.sublime-workspace"
+			],
+			[
+				"sickmap",
+				"C:\\Users\\Jonathan\\Documents\\Visual Studio 2013\\Projects\\SickMap\\SickMap.sublime-workspace"
+			],
+			[
+				"scri",
+				"C:\\proj\\scripts.sublime-project"
+			],
+			[
+				"power",
+				"C:\\proj\\[Rockwell] Motion Analyzer.sublime-project"
+			],
+			[
+				"script",
+				"C:\\proj\\scripts.sublime-project"
+			],
+			[
+				"scrip",
+				"C:\\proj\\scripts.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 86.0,
+		"selected_items":
+		[
+			[
+				"togglesystem",
+				"_toggleSystemStatus"
+			],
+			[
+				"createnew",
+				"createNew"
+			],
+			[
+				"del",
+				"del"
+			],
+			[
+				"save",
+				"save"
+			],
+			[
+				"lock",
+				"locked"
+			],
+			[
+				"locked",
+				"locked"
+			],
+			[
+				"filter",
+				"filter"
+			]
+		],
+		"width": 898.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"vintage":
+		{
+			"_cmdline_cd": "C:\\src\\Personal\\Mozilla\\AngularExtension\\lib\\ng",
+			"last_buffer_search": "toolbox"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
